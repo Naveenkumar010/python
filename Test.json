@@ -1,4 +1,12 @@
-{ 
-"Name":"naveen" ,
-"Year of birth": "2000"
- }
+{
+"schoolname":"School of excelents",
+"principal":["Pal raj","Namkshi"],
+"teachers":["Abi","Liam","Olivia","Windy.","Vin'nyla.","Velvette.",
+    "Starlette.","Snowdrop.","Sianna-Marie.","Panda.","Charmayanne."],
+"studname":["Naveen" , "Kumar","Antwohnette","Anomaly","Wiatt","Tokyo",
+    "Tigger","Tenysi","Sincere","Precise","Pluto","Kairo","Kanaan","Brayan"],
+
+"id":["0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10",
+     "11", "12", "13", "14", "15", "16", "17", "18", "19", "20"],
+"Totalstud":"20"
+}
