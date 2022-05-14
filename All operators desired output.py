@@ -6,12 +6,19 @@ def mul(num1,num2):
     return num1*num2
 def div(num1,num2):
     return num1/num2
+def square(num1,num2):
+    return num1*num1 ,num2*num2
+def exp(num1,num2):
+    return num1**num2
+
 
 print("""selecte the operation to perform:
     1.add
     2.sub
     3.mul
     4.div
+    5.square
+    6.exponentential
     """)
 Ni=int(input("No.of.inputs: "))
 for i in range(Ni):
@@ -31,4 +38,10 @@ for i in range(Ni):
             break
         elif op==4:
             print(div(num1,num2))
+            break
+        elif op==5:
+            print(square(num1,num2))
+            break
+        elif op==6:
+            print(exp(num1,num2))
             break
