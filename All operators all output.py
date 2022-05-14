@@ -18,15 +18,10 @@ for i in range(Ni):
     #pass
     op=int(input("The operation to perform: "))
     for i in range(op):
-        if i==1:
+        if i==0:
             print(add(num1,num2))
-        elif i==2:
             print(sub(num1,num2))
-        elif i==3:
             print(mul(num1,num2))
-        elif i==4:
             print(div(num1,num2))
-        elif i==5:
             print(square(num1,num2))
-        elif i==6:
             print(exp(num1,num2))
