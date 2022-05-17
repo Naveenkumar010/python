@@ -1,0 +1,5 @@
+n=int(input("Enter a starting range "))
+m=int(input("Enter a ending range "))
+print(list(range(m)))
+print(list(range(n,m)))
+print(list(range(n,m,2)))
