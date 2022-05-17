@@ -2,7 +2,7 @@ def int(list):
     print("the list",list)
     A=list[0]
     B=list[-1]
-    if A==B:
+    while A==B:
         return True
     else:
         return False
